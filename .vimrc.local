@@ -1,0 +1,21 @@
+set textwidth=79
+set colorcolumn=+1,+2,+3
+
+set gfn=Inconsolata\ Medium\ 10
+set autoread
+
+hi ColorColumn ctermbg=black guibg=gray28
+
+colorscheme desert
+
+nmap \q :nohlsearch<CR>
+" mapping for moving through the buffers
+nnoremap <C-O> :bnext<cr>
+nnoremap <C-I> :bprevious<cr>
+
+"quick fix window
+nnoremap <Leader>q :cclose<CR>
+nnoremap <Leader>Q :copen<CR>
+
+" @#$@# $HELP!
+nnoremap <F1> <Esc>
