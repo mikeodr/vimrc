@@ -12,9 +12,7 @@ nmap \q :nohlsearch<CR>
 " mapping for moving through the buffers
 nnoremap <C-O> :bnext<cr>
 nnoremap <C-I> :bprevious<cr>
-nnoremap <C-[> :tp<cr>
-nnoremap <C-\> :tn<cr>
-
+set nofoldenable " disable folding
 
 "quick fix window
 nnoremap <Leader>q :cclose<CR>
