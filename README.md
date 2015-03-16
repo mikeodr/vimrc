@@ -10,3 +10,6 @@ This is based off of the spf13vim framework
 
 Symlink the vimrc files file to your home directory
 `ln -s ~/source/vimrc/.vimrc.* .`
+
+## Install font
+`sudo apt-get install fonts-inconsolata`
