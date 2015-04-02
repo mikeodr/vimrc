@@ -1,7 +1,7 @@
 set textwidth=79
 set colorcolumn=+1,+2,+3
 
-set gfn=Inconsolata\ Medium\ 10
+set gfn=Inconsolata\ Medium\ 11
 set autoread
 
 hi ColorColumn ctermbg=black guibg=gray28
@@ -13,6 +13,9 @@ nmap \q :nohlsearch<CR>
 nnoremap <C-O> :bnext<cr>
 nnoremap <C-I> :bprevious<cr>
 set nofoldenable " disable folding
+
+nnoremap <Leader>f :tnext<CR>
+nnoremap <Leader>g :tprevious<CR>
 
 "quick fix window
 nnoremap <Leader>q :cclose<CR>
