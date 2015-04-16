@@ -1,4 +1,4 @@
-zshrc
+vimrc
 =====
 
 My vimrc configuration, feel free to reuse and share.
