@@ -1,7 +1,7 @@
 set textwidth=79
 set colorcolumn=+1,+2,+3
 
-set gfn=Inconsolata\ Medium\ 11
+set gfn=Hack\ 9
 set autoread
 
 hi ColorColumn ctermbg=black guibg=gray28
@@ -9,9 +9,12 @@ hi ColorColumn ctermbg=black guibg=gray28
 colorscheme desert
 
 nmap \q :nohlsearch<CR>
+nmap \b :b#<CR>
+nmap \w :w<CR>
+nn <F7> :setlocal spell! spell?<CR>
 " mapping for moving through the buffers
-nnoremap <C-O> :bnext<cr>
-nnoremap <C-I> :bprevious<cr>
+"nnoremap <C-O> :bnext<cr>
+"nnoremap <C-I> :bprevious<cr>
 set nofoldenable " disable folding
 
 set pastetoggle=<F2>
