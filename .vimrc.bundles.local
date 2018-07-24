@@ -1,7 +1,8 @@
 Bundle 'tpope/vim-sleuth'
+Bundle 'fatih/vim-go'
 
-UnBundle 'neocomplete'
-UnBundle 'neocomplete.vim.git'
-UnBundle 'neosnippet'
+UnBundle 'Shougo/neocomplete'
+UnBundle 'Shougo/neocomplete.vim.git'
+UnBundle 'Shougo/neosnippet'
 UnBundle 'YouCompleteMe'
-UnBundle 'vim-snippets'
+UnBundle 'honza/vim-snippets'
