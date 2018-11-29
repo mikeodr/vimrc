@@ -28,3 +28,5 @@ nnoremap <Leader>Q :copen<CR>
 
 " @#$@# $HELP!
 nnoremap <F1> <Esc>
+
+let g:go_version_warning = 0
